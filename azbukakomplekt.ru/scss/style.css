@@ -553,8 +553,8 @@ input {
   align-items: center;
   max-width: 1720px;
   gap: 35px;
-  padding-bottom: 65px;
-  margin: 0 15% 0 15%;
+  padding-bottom: 60px;
+  margin: 0px 10% 0 10%;
 }
 
 .form-image {
@@ -596,7 +596,7 @@ input {
 input {
   width: 100%;
   border: none;
-  border-bottom: 0.1rem solid var(--black);
+  border-bottom: 0.1rem dashed;
   outline: none;
   padding: 20px 0 10px 0;
   font-style: normal;
@@ -690,15 +690,15 @@ input {
 
 ::-moz-placeholder {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: var(--icon-tx);
   color: var(--grey);
 }
 
 ::placeholder {
   font-style: normal;
-  font-weight: 400;
-  font-size: var(--icon-tx);
+  font-weight: 600;
+  /*font-size: var(--icon-tx);*/
   color: var(--grey);
 }
 
