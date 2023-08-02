@@ -14,36 +14,6 @@
     <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
-<!--    <header class="header">-->
-<!--        <div class="header__container">-->
-<!--            <div class="heder-logo">-->
-<!--                <a href="" class="header__logo"><img class="logo-svg" src="img/MacBook Pro 16_ - 1 1.svg" alt="Logo" width="120" height="120"></a>-->
-<!--            </div>-->
-<!--            <div class="header__navigation">-->
-<!--                <div class="menu__icon">-->
-<!--                    <span></span>-->
-<!--                    <span></span>-->
-<!--                    <span></span>-->
-<!--                </div>-->
-<!--                <nav class="header__menu menu">-->
-<!--                    <ul class="menu__body">-->
-<!--                        <input type="checkbox" id="side-checkbox" />-->
-<!--                        <div class="side-panel">-->
-<!--                            <label class="side-button-2" for="side-checkbox">+</label>-->
-<!--                            <div class="side-title">Выдвижная панель:</div>-->
-<!--                            <p>Информация в панеле</p>-->
-<!--                        </div>-->
-<!--                        <div class="side-button-1-wr">-->
-<!--                            <label class="side-button-1" for="side-checkbox">-->
-<!--                                <div class="side-b side-open">Открыть</div>-->
-<!--                                <div class="side-b side-close">Закрыть</div>-->
-<!--                            </label>-->
-<!--                        </div>-->
-<!--                    </ul>-->
-<!--                </nav>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </header>-->
     <main class="page">
         <section id="home" class="hero mb-200">
             <input type="checkbox" id="nav-toggle" hidden>
@@ -56,15 +26,19 @@
             <nav class="nav">
                 <label for="nav-toggle" class="nav-toggle" onclick></label>
                 <h2 class="logo">
-
                 </h2>
                 <ul>
                     <li><a href="#advantages">Главная</a>
                     <li><a href="#products">Продукция</a>
                     <li><a href="#application">Оставьте заявку</a>
                     <li><a href="#contacts">Контакты</a>
-<!--                    <li><a href="#6">Шесть</a>-->
-<!--                    <li><a href="#7">Семь</a>-->
+                    <div class="social-icons">
+                        <!--                    <li><a href="#6">Шесть</a>-->
+                        <!--                    <li><a href="#7">Семь</a>-->
+                        <div class="menu-icons"><a href=""><img src="./img/icons/telegram.png" width="20px" height="20px"></a></div>
+                        <div class="menu-icons"><a href=""><img src="./img/icons/vk-logo-of-social-network.png" width="20px" height="20px"></a></div>
+                        <div class="menu-icons"><a href=""><img src="./img/icons/whatsapp.png" width="20px" height="20px"></a></div>
+                    </div>
                 </ul>
             </nav>
             <div class="center-photo">
@@ -100,42 +74,19 @@
         <section id ="products" class="grid-container products">
             <div class="products-wrapper mb-200">
                     <h2 class="h2 margin-btm-100px">Продукция</h2>
-                <div class='demo-container'>
-                    <div class='carousel'>
-                        <input checked='checked' class='activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
-                        <input class='activator' id='carousel-slide-activator-2' name='carousel' type='radio'>
-                        <input class='activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
-                        <div class='controls'>
-                            <label class='control control--forward' for='carousel-slide-activator-2'>&#8250;</label>
-                        </div>
-                        <div class='controls'>
-                            <label class='control control--backward' for='carousel-slide-activator-1'>&#8249;</label>
-<!--                            <label class='control control&#45;&#45;forward' for='carousel-slide-activator-3'>&#8250;</label>-->
-                        </div>
-<!--                        <div class='controls'>-->
-<!--                            <label class='control control&#45;&#45;backward' for='carousel-slide-activator-2'>&#8249;</label>-->
-<!--                        </div>-->
-                        <div class='screen'>
-                            <div class='track'>
-                                <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
-                                    <div class='demo-content'><p>Козырьки</p></div>
-                                </div>
-                                <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
-                                    <div class='demo-content'><p>Перегородки</p></div>
-                                </div>
-                                <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
-                                    <div class='demo-content'><p>Двери</p></div>
-                                </div>
-                                <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
-                                    <div class='demo-content'><p>Перегородки</p></div>
-                                </div>
-                                <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
-                                    <div class='demo-content'><p>Душевые</p></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class = 'Carousel'>
+                    <div class = 'Block'><img src="./img/9-min.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/item3.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/душ.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/двери стекл.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/перегор стекл.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/9-min.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/item3.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/душ.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/двери стекл.jpg" width="300px" height="250px"></div>
+                    <div class = 'Block'><img src="./img/перегор стекл.jpg" width="300px" height="250px"></div>
                 </div>
+
                 <a id="register" class="button purple" href="#application">
                     <i class="fa fa-user-plus"></i>
                     <span>Хотите оставить заявку?</span>
