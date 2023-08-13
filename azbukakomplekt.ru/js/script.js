@@ -97,3 +97,5 @@ var swiper = new Swiper(".mySwiper", {
    
   });
 
+//tut tipa k gallery dopolnenie
+
