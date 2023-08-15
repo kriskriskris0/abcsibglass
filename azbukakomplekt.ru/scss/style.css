@@ -14,7 +14,7 @@ html {
 
 * img {
   display: block;
-  min-width: 50%;
+  /*min-width: 50%;*/
 }
 
 a, a:link, a:visited  {
@@ -589,7 +589,6 @@ input {
   padding: 6px 20px;
   width: 300px;
   font-style: normal;
-  font-size: var(--form-text-btn);
   border: none;
   cursor: pointer;
   /*transition: 0.3s;*/
@@ -809,7 +808,7 @@ display: none;
   /* абсолютно позиционируем */
   position: absolute;
   /* относительно левого края панели */
-  left: 350px;
+  left: 370px;
   /* отступ от верхнего края панели */
   top: 1em;
   /* внутренние отступы */
@@ -817,7 +816,7 @@ display: none;
   /* определяем цвет фона переключателя
    * чаще вчего в соответствии с цветом фона панели
   */
-  background: inherit;
+  background: transparent;
   /* цвет текста */
   color: #1A5623;
   /* вид курсора */
@@ -1241,7 +1240,7 @@ justify-content: center;
   box-shadow: 0 0 0.25em rgba(0,0,0,.25);
   box-sizing: border-box;
   left: 50%;
-  padding: 4vmax 10vmax;
+  padding: 4vmax 0vmax;
   /* position: fixed; */
   text-align: center;
   top: 50%;
@@ -1325,6 +1324,10 @@ transform:translateX(25%);
   font-size: x-large;
   text-transform: uppercase;
   font-weight: 900;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  margin: 0 5% 0 5%;
 }
 
 p {
@@ -1333,12 +1336,12 @@ p {
 }
 
 
-h4,
-h5,
-h6 {
-  font-family: "Hind", sans-serif;
-  font-weight: 800;
-}
+/*h4,*/
+/*h5,*/
+/*h6 {*/
+/*  font-family: "Hind", sans-serif;*/
+/*  font-weight: 800;*/
+/*}*/
 
 a {
   color: #31383d;
@@ -1420,6 +1423,15 @@ ul.job-list > li.job-preview:hover {
   .job-preview .content {
     width: 100%;
   }
+}
+.list-glass-photo{
+  /*min-width: 50%;*/
+  min-height: 30%;
+  width: 30%;
+  height: 40%;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 
