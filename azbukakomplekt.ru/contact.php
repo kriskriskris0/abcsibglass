@@ -1,7 +1,7 @@
 <?php
 if (isset ($_POST['contactFF'])) {
-  $to = "info@azbuka-prom.ru";
-  $from = "info@azbuka-prom.ru";
+  $to = "prokofiev@azbuka-prom.ru";
+  $from = "prokofiev@azbuka-prom.ru";
   $subject = "Заполнена контактная форма на сайте ".$_SERVER['HTTP_REFERER'];
   $message = "Имя пользователя: ".$_POST['nameFF']."\nEmail пользователя ".$_POST['contactFF']."\nТелефон пользователя ".$_POST['telFF']."\nТовар: ".$_POST['projectFF']."\n\nАдрес сайта: ".$_SERVER['HTTP_REFERER'];
  
